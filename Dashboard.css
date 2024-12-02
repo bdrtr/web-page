@@ -156,20 +156,22 @@ body {
 }
 /*Content side */
 
-.content {
-
-
-}
  .content .middle-bar {
 	 padding:32px 65px;
  }
  .content .right-bar {
-	 width:300px;
-	 height: auto;
-	 margin-left: auto;
-	 border-left:2px solid #fff;
-	 padding: 32px 0;
+
+	width: 100%;
+	background-color: #0b2545;
+	height: 40%;
  }
+
+ .content .right-bar .center-pos-container {
+
+	background-color: #8F94B8;
+
+ }
+
  .content .middle-bar .search-box {
 	 display: inline;
 	 margin-bottom:60px;
@@ -307,9 +309,10 @@ body {
 	margin-right: 20%;
 	background-color: var(--back-color);
 	width: 50%;
-	height: 15%;
+	height: 17%;
 	justify-content: center;
 	border-radius: 50px;
+	position: fixed;
 }
 
 .content .bottom-content .menu-links {
